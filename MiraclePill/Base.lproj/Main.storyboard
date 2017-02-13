@@ -178,10 +178,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X5N-Vl-uOw">
-                                <rect key="frame" x="173.33333333333334" y="657" width="68" height="33"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <state key="normal" title="Buy Now"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X5N-Vl-uOw">
+                                <rect key="frame" x="94.666666666666686" y="657" width="225" height="45"/>
+                                <state key="normal" image="buyNowBtn"/>
                                 <connections>
                                     <action selector="buyNowPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XFt-bP-FMV"/>
                                 </connections>
@@ -272,6 +271,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="buyNowBtn" width="225" height="45"/>
         <image name="miraclePillEmoji" width="90" height="90"/>
         <image name="successIndicator" width="180" height="180"/>
     </resources>
